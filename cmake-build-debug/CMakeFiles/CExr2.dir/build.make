@@ -297,6 +297,54 @@ CMakeFiles/CExr2.dir/HealerSoldier.cpp.o.provides: CMakeFiles/CExr2.dir/HealerSo
 CMakeFiles/CExr2.dir/HealerSoldier.cpp.o.provides.build: CMakeFiles/CExr2.dir/HealerSoldier.cpp.o
 
 
+CMakeFiles/CExr2.dir/GameBoard.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/GameBoard.cpp.o: ../GameBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CExr2.dir/GameBoard.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/GameBoard.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/GameBoard.cpp
+
+CMakeFiles/CExr2.dir/GameBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/GameBoard.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/GameBoard.cpp > CMakeFiles/CExr2.dir/GameBoard.cpp.i
+
+CMakeFiles/CExr2.dir/GameBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/GameBoard.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/GameBoard.cpp -o CMakeFiles/CExr2.dir/GameBoard.cpp.s
+
+CMakeFiles/CExr2.dir/GameBoard.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/GameBoard.cpp.o.requires
+
+CMakeFiles/CExr2.dir/GameBoard.cpp.o.provides: CMakeFiles/CExr2.dir/GameBoard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/GameBoard.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/GameBoard.cpp.o.provides
+
+CMakeFiles/CExr2.dir/GameBoard.cpp.o.provides.build: CMakeFiles/CExr2.dir/GameBoard.cpp.o
+
+
+CMakeFiles/CExr2.dir/AttackAction.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/AttackAction.cpp.o: ../AttackAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CExr2.dir/AttackAction.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/AttackAction.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.cpp
+
+CMakeFiles/CExr2.dir/AttackAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/AttackAction.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.cpp > CMakeFiles/CExr2.dir/AttackAction.cpp.i
+
+CMakeFiles/CExr2.dir/AttackAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/AttackAction.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.cpp -o CMakeFiles/CExr2.dir/AttackAction.cpp.s
+
+CMakeFiles/CExr2.dir/AttackAction.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/AttackAction.cpp.o.requires
+
+CMakeFiles/CExr2.dir/AttackAction.cpp.o.provides: CMakeFiles/CExr2.dir/AttackAction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/AttackAction.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/AttackAction.cpp.o.provides
+
+CMakeFiles/CExr2.dir/AttackAction.cpp.o.provides.build: CMakeFiles/CExr2.dir/AttackAction.cpp.o
+
+
 # Object files for target CExr2
 CExr2_OBJECTS = \
 "CMakeFiles/CExr2.dir/FileControl.cpp.o" \
@@ -308,7 +356,9 @@ CExr2_OBJECTS = \
 "CMakeFiles/CExr2.dir/Warrior.cpp.o" \
 "CMakeFiles/CExr2.dir/RegularSoldier.cpp.o" \
 "CMakeFiles/CExr2.dir/SniperSoldier.cpp.o" \
-"CMakeFiles/CExr2.dir/HealerSoldier.cpp.o"
+"CMakeFiles/CExr2.dir/HealerSoldier.cpp.o" \
+"CMakeFiles/CExr2.dir/GameBoard.cpp.o" \
+"CMakeFiles/CExr2.dir/AttackAction.cpp.o"
 
 # External object files for target CExr2
 CExr2_EXTERNAL_OBJECTS =
@@ -323,9 +373,11 @@ CExr2.exe: CMakeFiles/CExr2.dir/Warrior.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/RegularSoldier.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/SniperSoldier.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/HealerSoldier.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/GameBoard.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/AttackAction.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/build.make
 CExr2.exe: CMakeFiles/CExr2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable CExr2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable CExr2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CExr2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -343,6 +395,8 @@ CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Warrior.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/RegularSoldier.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/SniperSoldier.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/HealerSoldier.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/GameBoard.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/AttackAction.cpp.o.requires
 
 .PHONY : CMakeFiles/CExr2.dir/requires
 

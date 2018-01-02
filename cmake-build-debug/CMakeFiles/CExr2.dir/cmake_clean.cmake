@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CExr2.dir/RegularSoldier.cpp.o"
   "CMakeFiles/CExr2.dir/SniperSoldier.cpp.o"
   "CMakeFiles/CExr2.dir/HealerSoldier.cpp.o"
+  "CMakeFiles/CExr2.dir/GameBoard.cpp.o"
+  "CMakeFiles/CExr2.dir/AttackAction.cpp.o"
   "CExr2.pdb"
   "CExr2.exe"
   "libCExr2.dll.a"

@@ -123,6 +123,33 @@ CExr2/fast:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/build
 .PHONY : CExr2/fast
 
+AttackAction.o: AttackAction.cpp.o
+
+.PHONY : AttackAction.o
+
+# target to build an object file
+AttackAction.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/AttackAction.cpp.o
+.PHONY : AttackAction.cpp.o
+
+AttackAction.i: AttackAction.cpp.i
+
+.PHONY : AttackAction.i
+
+# target to preprocess a source file
+AttackAction.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/AttackAction.cpp.i
+.PHONY : AttackAction.cpp.i
+
+AttackAction.s: AttackAction.cpp.s
+
+.PHONY : AttackAction.s
+
+# target to generate assembly for a file
+AttackAction.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/AttackAction.cpp.s
+.PHONY : AttackAction.cpp.s
+
 FileControl.o: FileControl.cpp.o
 
 .PHONY : FileControl.o
@@ -176,6 +203,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+GameBoard.o: GameBoard.cpp.o
+
+.PHONY : GameBoard.o
+
+# target to build an object file
+GameBoard.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/GameBoard.cpp.o
+.PHONY : GameBoard.cpp.o
+
+GameBoard.i: GameBoard.cpp.i
+
+.PHONY : GameBoard.i
+
+# target to preprocess a source file
+GameBoard.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/GameBoard.cpp.i
+.PHONY : GameBoard.cpp.i
+
+GameBoard.s: GameBoard.cpp.s
+
+.PHONY : GameBoard.s
+
+# target to generate assembly for a file
+GameBoard.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/GameBoard.cpp.s
+.PHONY : GameBoard.cpp.s
 
 HealerSoldier.o: HealerSoldier.cpp.o
 
@@ -402,12 +456,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CExr2"
+	@echo "... AttackAction.o"
+	@echo "... AttackAction.i"
+	@echo "... AttackAction.s"
 	@echo "... FileControl.o"
 	@echo "... FileControl.i"
 	@echo "... FileControl.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameBoard.o"
+	@echo "... GameBoard.i"
+	@echo "... GameBoard.s"
 	@echo "... HealerSoldier.o"
 	@echo "... HealerSoldier.i"
 	@echo "... HealerSoldier.s"

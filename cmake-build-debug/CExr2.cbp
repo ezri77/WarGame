@@ -83,6 +83,12 @@
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Actions.h">
 			<Option target="CExr2"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.h">
+			<Option target="CExr2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FileControl.cpp">
 			<Option target="CExr2"/>
 		</Unit>
@@ -93,6 +99,12 @@
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Game.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/GameBoard.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/GameBoard.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HealerSoldier.cpp">
