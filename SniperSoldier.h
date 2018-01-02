@@ -11,7 +11,7 @@
 
 class SniperSoldier: public Warrior {
 public:
-    SniperSoldier(const Point &_location,Weapon *wepon);
+    SniperSoldier(const Point &_location,Weapon *wepon, const int _armySymbol);
     virtual ~SniperSoldier();
     void play(Actions* action) override;
 

@@ -5,10 +5,11 @@
 #include <w32api/docobjectservice.h>
 #include "Soldier.h"
 
-Soldier::Soldier(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints) : _location(_location),
+Soldier::Soldier(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints,const int _armySymbol) : _location(_location),
                                                                                   _raduis(_raduis),
                                                                                   _lifePoints(_lifePoints),
-                                                                                  _maxlifePoints(_maxlifePoints){}
+                                                                                  _maxlifePoints(_maxlifePoints),
+																				  _armySymbol(_armySymbol){}
 
 const Point &Soldier::get_location() const {
     return _location;
@@ -53,4 +54,19 @@ const int Soldier::get_maxlifePoints() const {
     return _maxlifePoints;
 }
 
+const int Soldier::get_army_symbol()const
+{
+	return _armySymbol;
+}
 
+bool Soldier::can_reach_there(double distance)
+{
+	if (PICK_DISTANCE >= distance)return true;
+	else return false;
+}
+
+bool Soldier::can_walk_there(double distance)
+{
+	if (_raduis >= distance)return true;
+	else return false;
+}

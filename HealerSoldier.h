@@ -14,7 +14,7 @@ class HealerSoldier : public WarSupporter {
 
 public:
 
-    HealerSoldier(const Point &_location);
+    HealerSoldier(const Point &_location, const int _armySymbol);
     virtual ~HealerSoldier();
 
     void play(Actions *action) override;

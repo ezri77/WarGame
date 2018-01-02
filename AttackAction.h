@@ -9,6 +9,8 @@
 #include "GameBoard.h"
 
 class AttackAction:public Actions {
+private:
+	glo AttackAction* instance;
 public:
     void doAction(class RegularSoldier *soldier, GameBoard *board) override;
 

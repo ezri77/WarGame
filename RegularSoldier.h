@@ -14,7 +14,7 @@
 
 class RegularSoldier : public Warrior {
 public:
-    RegularSoldier(const Point &_location, Weapon *wepon);
+    RegularSoldier(const Point &_location, Weapon *wepon, const int _armySymbol);
 
     virtual ~RegularSoldier();
 

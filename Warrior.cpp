@@ -17,5 +17,5 @@ Warrior::~Warrior() {
 
 }
 
-Warrior::Warrior(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, Weapon *wepon)
-        : Soldier(_location, _raduis, _lifePoints, _maxlifePoints), wepon(wepon) {}
+Warrior::Warrior(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, Weapon *wepon, const int _armySymbol)
+        : Soldier(_location, _raduis, _lifePoints, _maxlifePoints, _armySymbol), wepon(wepon) {}

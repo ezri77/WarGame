@@ -14,6 +14,6 @@ void RegularSoldier::play(Actions* action) {
     action->doAction(this);
 }
 
-RegularSoldier::RegularSoldier(const Point &_location, Weapon *wepon) : Warrior(_location, RADIUS,MAX_LIFE_POINT, MAX_LIFE_POINT, wepon) {}
+RegularSoldier::RegularSoldier(const Point &_location, Weapon *wepon, const int _armySymbol) : Warrior(_location, RADIUS,MAX_LIFE_POINT, MAX_LIFE_POINT, wepon, _armySymbol) {}
 
 

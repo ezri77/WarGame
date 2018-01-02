@@ -13,7 +13,7 @@ class Warrior: public Soldier {
 public:
     virtual ~Warrior();
 
-    Warrior(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, Weapon *wepon);
+    Warrior(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, Weapon *wepon, const int _armySymbol);
 
 public:
 

@@ -5,6 +5,8 @@
 #ifndef CEXR2_SOLDIER_H
 #define CEXR2_SOLDIER_H
 
+#define PICK_DISTANCE 2
+
 #include "Point.h"
 
 #include "Armor.h"
@@ -18,6 +20,7 @@ private:
     const double _raduis ;
     int _lifePoints;
     const int _maxlifePoints;
+	const int _armySymbol;
 
 private:
 
@@ -28,7 +31,7 @@ public:
 
     virtual ~Soldier();
 
-    Soldier(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints);
+    Soldier(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints,const int _armySymbol);
 
     void set_location(const Point &_location);
 
@@ -48,6 +51,11 @@ public:
 
     const int get_maxlifePoints() const;
 
+	const int get_army_symbol()const;
+
+	bool can_reach_there(double distanc);
+
+	bool can_walk_there(double distanc);
 
     ///report????
 

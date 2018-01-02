@@ -52,8 +52,8 @@ public:
 
     void removeSoldierByIndex(int index);
 
-
-
+	double distance(Point p1, Point p2);
+	
 
 };
 

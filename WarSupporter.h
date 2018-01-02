@@ -11,7 +11,7 @@ class WarSupporter : public Soldier{
 public:
     virtual void play(Actions* action) = 0;
 
-    WarSupporter(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints);
+    WarSupporter(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, const int _armySymbol);
 
     virtual ~WarSupporter();
 };
@@ -23,5 +23,5 @@ WarSupporter::~WarSupporter() {
 
 }
 
-WarSupporter::WarSupporter(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints)
-        : Soldier(_location, _raduis, _lifePoints, _maxlifePoints) {}
+WarSupporter::WarSupporter(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, const int _armySymbol)
+        : Soldier(_location, _raduis, _lifePoints, _maxlifePoints, _armySymbol) {}
