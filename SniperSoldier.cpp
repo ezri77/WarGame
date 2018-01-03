@@ -4,13 +4,17 @@
 
 #include "SniperSoldier.h"
 
-SniperSoldier::SniperSoldier(const Point &_location, Weapon *wepon, const int _armySymbol) : Warrior(_location, RADIUS, MAX_LIFE_POINT, MAX_LIFE_POINT, wepon,_armySymbol) {}
+SniperSoldier::SniperSoldier(const Point &_location, Weapon *wepon, const int _armySymbol) : Warrior(_location, RADIUS_SNIPER, MAX_LIFE_POINT_SNI, MAX_LIFE_POINT_SNI, wepon,_armySymbol) {}
 
 SniperSoldier::~SniperSoldier() {
 
 }
 
-void SniperSoldier::play(Actions* action){
-    action->doAction(this);
+void SniperSoldier::play(Actions* action, GameBoard* board){
+    action->doAction(this, board);
+}
+
+double SniperSoldier::culcPowerShot(double distance) {
+    return ((distance - 1 ) / distance ) * getWepon()->getNumOfShots() * getWepon()->getPower() ;
 }
 

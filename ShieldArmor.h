@@ -1,4 +1,6 @@
-#pragma once
+
+#ifndef SHILED_ARMOR
+#define SHILED_ARMOR
 #include "Armor.h"
 class ShieldArmor:public Armor
 {
@@ -15,3 +17,4 @@ public:
 
 };
 
+#endif

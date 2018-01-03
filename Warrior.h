@@ -8,6 +8,7 @@
 #include "Soldier.h"
 #include "Weapon.h"
 #include "Actions.h"
+#include "GameBoard.h"
 
 class Warrior: public Soldier {
 public:
@@ -22,8 +23,9 @@ private:
 
 public:
     void setWepon(Weapon *wepon);
-    virtual void play(Actions* action) = 0;
+    virtual void play(Actions* action,GameBoard* board) = 0;
     Weapon *getWepon() const;
+    virtual double culcPowerShot(double distance) = 0 ;
 
     //report???
 

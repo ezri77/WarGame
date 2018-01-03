@@ -153,9 +153,57 @@ CMakeFiles/CExr2.dir/Player.cpp.o.provides: CMakeFiles/CExr2.dir/Player.cpp.o.re
 CMakeFiles/CExr2.dir/Player.cpp.o.provides.build: CMakeFiles/CExr2.dir/Player.cpp.o
 
 
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.o: ../HumanPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CExr2.dir/HumanPlayer.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/HumanPlayer.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanPlayer.cpp
+
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/HumanPlayer.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanPlayer.cpp > CMakeFiles/CExr2.dir/HumanPlayer.cpp.i
+
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/HumanPlayer.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanPlayer.cpp -o CMakeFiles/CExr2.dir/HumanPlayer.cpp.s
+
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.requires
+
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.provides: CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.provides
+
+CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.provides.build: CMakeFiles/CExr2.dir/HumanPlayer.cpp.o
+
+
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o: ../ComputerPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerPlayer.cpp
+
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/ComputerPlayer.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerPlayer.cpp > CMakeFiles/CExr2.dir/ComputerPlayer.cpp.i
+
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/ComputerPlayer.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerPlayer.cpp -o CMakeFiles/CExr2.dir/ComputerPlayer.cpp.s
+
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.requires
+
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.provides: CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.provides
+
+CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.provides.build: CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o
+
+
 CMakeFiles/CExr2.dir/WalkAction.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/WalkAction.cpp.o: ../WalkAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CExr2.dir/WalkAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CExr2.dir/WalkAction.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/WalkAction.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/WalkAction.cpp
 
 CMakeFiles/CExr2.dir/WalkAction.cpp.i: cmake_force
@@ -179,7 +227,7 @@ CMakeFiles/CExr2.dir/WalkAction.cpp.o.provides.build: CMakeFiles/CExr2.dir/WalkA
 
 CMakeFiles/CExr2.dir/Soldier.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/Soldier.cpp.o: ../Soldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CExr2.dir/Soldier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CExr2.dir/Soldier.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Soldier.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Soldier.cpp
 
 CMakeFiles/CExr2.dir/Soldier.cpp.i: cmake_force
@@ -203,7 +251,7 @@ CMakeFiles/CExr2.dir/Soldier.cpp.o.provides.build: CMakeFiles/CExr2.dir/Soldier.
 
 CMakeFiles/CExr2.dir/Warrior.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/Warrior.cpp.o: ../Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CExr2.dir/Warrior.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CExr2.dir/Warrior.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Warrior.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Warrior.cpp
 
 CMakeFiles/CExr2.dir/Warrior.cpp.i: cmake_force
@@ -227,7 +275,7 @@ CMakeFiles/CExr2.dir/Warrior.cpp.o.provides.build: CMakeFiles/CExr2.dir/Warrior.
 
 CMakeFiles/CExr2.dir/RegularSoldier.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/RegularSoldier.cpp.o: ../RegularSoldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CExr2.dir/RegularSoldier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CExr2.dir/RegularSoldier.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/RegularSoldier.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularSoldier.cpp
 
 CMakeFiles/CExr2.dir/RegularSoldier.cpp.i: cmake_force
@@ -251,7 +299,7 @@ CMakeFiles/CExr2.dir/RegularSoldier.cpp.o.provides.build: CMakeFiles/CExr2.dir/R
 
 CMakeFiles/CExr2.dir/SniperSoldier.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/SniperSoldier.cpp.o: ../SniperSoldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CExr2.dir/SniperSoldier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CExr2.dir/SniperSoldier.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/SniperSoldier.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/SniperSoldier.cpp
 
 CMakeFiles/CExr2.dir/SniperSoldier.cpp.i: cmake_force
@@ -275,7 +323,7 @@ CMakeFiles/CExr2.dir/SniperSoldier.cpp.o.provides.build: CMakeFiles/CExr2.dir/Sn
 
 CMakeFiles/CExr2.dir/HealerSoldier.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/HealerSoldier.cpp.o: ../HealerSoldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CExr2.dir/HealerSoldier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CExr2.dir/HealerSoldier.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/HealerSoldier.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HealerSoldier.cpp
 
 CMakeFiles/CExr2.dir/HealerSoldier.cpp.i: cmake_force
@@ -299,7 +347,7 @@ CMakeFiles/CExr2.dir/HealerSoldier.cpp.o.provides.build: CMakeFiles/CExr2.dir/He
 
 CMakeFiles/CExr2.dir/GameBoard.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/GameBoard.cpp.o: ../GameBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CExr2.dir/GameBoard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CExr2.dir/GameBoard.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/GameBoard.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/GameBoard.cpp
 
 CMakeFiles/CExr2.dir/GameBoard.cpp.i: cmake_force
@@ -323,7 +371,7 @@ CMakeFiles/CExr2.dir/GameBoard.cpp.o.provides.build: CMakeFiles/CExr2.dir/GameBo
 
 CMakeFiles/CExr2.dir/AttackAction.cpp.o: CMakeFiles/CExr2.dir/flags.make
 CMakeFiles/CExr2.dir/AttackAction.cpp.o: ../AttackAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CExr2.dir/AttackAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CExr2.dir/AttackAction.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/AttackAction.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.cpp
 
 CMakeFiles/CExr2.dir/AttackAction.cpp.i: cmake_force
@@ -345,12 +393,470 @@ CMakeFiles/CExr2.dir/AttackAction.cpp.o.provides: CMakeFiles/CExr2.dir/AttackAct
 CMakeFiles/CExr2.dir/AttackAction.cpp.o.provides.build: CMakeFiles/CExr2.dir/AttackAction.cpp.o
 
 
+CMakeFiles/CExr2.dir/FindByRandom.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/FindByRandom.cpp.o: ../FindByRandom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CExr2.dir/FindByRandom.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/FindByRandom.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindByRandom.cpp
+
+CMakeFiles/CExr2.dir/FindByRandom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/FindByRandom.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindByRandom.cpp > CMakeFiles/CExr2.dir/FindByRandom.cpp.i
+
+CMakeFiles/CExr2.dir/FindByRandom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/FindByRandom.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindByRandom.cpp -o CMakeFiles/CExr2.dir/FindByRandom.cpp.s
+
+CMakeFiles/CExr2.dir/FindByRandom.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/FindByRandom.cpp.o.requires
+
+CMakeFiles/CExr2.dir/FindByRandom.cpp.o.provides: CMakeFiles/CExr2.dir/FindByRandom.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindByRandom.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/FindByRandom.cpp.o.provides
+
+CMakeFiles/CExr2.dir/FindByRandom.cpp.o.provides.build: CMakeFiles/CExr2.dir/FindByRandom.cpp.o
+
+
+CMakeFiles/CExr2.dir/HumanWalk.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/HumanWalk.cpp.o: ../HumanWalk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CExr2.dir/HumanWalk.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/HumanWalk.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanWalk.cpp
+
+CMakeFiles/CExr2.dir/HumanWalk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/HumanWalk.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanWalk.cpp > CMakeFiles/CExr2.dir/HumanWalk.cpp.i
+
+CMakeFiles/CExr2.dir/HumanWalk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/HumanWalk.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanWalk.cpp -o CMakeFiles/CExr2.dir/HumanWalk.cpp.s
+
+CMakeFiles/CExr2.dir/HumanWalk.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/HumanWalk.cpp.o.requires
+
+CMakeFiles/CExr2.dir/HumanWalk.cpp.o.provides: CMakeFiles/CExr2.dir/HumanWalk.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanWalk.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/HumanWalk.cpp.o.provides
+
+CMakeFiles/CExr2.dir/HumanWalk.cpp.o.provides.build: CMakeFiles/CExr2.dir/HumanWalk.cpp.o
+
+
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.o: ../ComputerWalk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CExr2.dir/ComputerWalk.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/ComputerWalk.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerWalk.cpp
+
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/ComputerWalk.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerWalk.cpp > CMakeFiles/CExr2.dir/ComputerWalk.cpp.i
+
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/ComputerWalk.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerWalk.cpp -o CMakeFiles/CExr2.dir/ComputerWalk.cpp.s
+
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.requires
+
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.provides: CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.provides
+
+CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.provides.build: CMakeFiles/CExr2.dir/ComputerWalk.cpp.o
+
+
+CMakeFiles/CExr2.dir/Armor.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Armor.cpp.o: ../Armor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CExr2.dir/Armor.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Armor.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Armor.cpp
+
+CMakeFiles/CExr2.dir/Armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Armor.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Armor.cpp > CMakeFiles/CExr2.dir/Armor.cpp.i
+
+CMakeFiles/CExr2.dir/Armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Armor.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Armor.cpp -o CMakeFiles/CExr2.dir/Armor.cpp.s
+
+CMakeFiles/CExr2.dir/Armor.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Armor.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Armor.cpp.o.provides: CMakeFiles/CExr2.dir/Armor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Armor.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Armor.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Armor.cpp.o.provides.build: CMakeFiles/CExr2.dir/Armor.cpp.o
+
+
+CMakeFiles/CExr2.dir/BodyArmor.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/BodyArmor.cpp.o: ../BodyArmor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CExr2.dir/BodyArmor.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/BodyArmor.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/BodyArmor.cpp
+
+CMakeFiles/CExr2.dir/BodyArmor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/BodyArmor.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/BodyArmor.cpp > CMakeFiles/CExr2.dir/BodyArmor.cpp.i
+
+CMakeFiles/CExr2.dir/BodyArmor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/BodyArmor.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/BodyArmor.cpp -o CMakeFiles/CExr2.dir/BodyArmor.cpp.s
+
+CMakeFiles/CExr2.dir/BodyArmor.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/BodyArmor.cpp.o.requires
+
+CMakeFiles/CExr2.dir/BodyArmor.cpp.o.provides: CMakeFiles/CExr2.dir/BodyArmor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/BodyArmor.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/BodyArmor.cpp.o.provides
+
+CMakeFiles/CExr2.dir/BodyArmor.cpp.o.provides.build: CMakeFiles/CExr2.dir/BodyArmor.cpp.o
+
+
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o: ../HeavyWeapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HeavyWeapon.cpp
+
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/HeavyWeapon.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HeavyWeapon.cpp > CMakeFiles/CExr2.dir/HeavyWeapon.cpp.i
+
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/HeavyWeapon.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/HeavyWeapon.cpp -o CMakeFiles/CExr2.dir/HeavyWeapon.cpp.s
+
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.requires
+
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.provides: CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.provides
+
+CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.provides.build: CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o
+
+
+CMakeFiles/CExr2.dir/M16.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/M16.cpp.o: ../M16.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CExr2.dir/M16.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/M16.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/M16.cpp
+
+CMakeFiles/CExr2.dir/M16.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/M16.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/M16.cpp > CMakeFiles/CExr2.dir/M16.cpp.i
+
+CMakeFiles/CExr2.dir/M16.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/M16.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/M16.cpp -o CMakeFiles/CExr2.dir/M16.cpp.s
+
+CMakeFiles/CExr2.dir/M16.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/M16.cpp.o.requires
+
+CMakeFiles/CExr2.dir/M16.cpp.o.provides: CMakeFiles/CExr2.dir/M16.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/M16.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/M16.cpp.o.provides
+
+CMakeFiles/CExr2.dir/M16.cpp.o.provides.build: CMakeFiles/CExr2.dir/M16.cpp.o
+
+
+CMakeFiles/CExr2.dir/Missile.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Missile.cpp.o: ../Missile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CExr2.dir/Missile.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Missile.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Missile.cpp
+
+CMakeFiles/CExr2.dir/Missile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Missile.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Missile.cpp > CMakeFiles/CExr2.dir/Missile.cpp.i
+
+CMakeFiles/CExr2.dir/Missile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Missile.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Missile.cpp -o CMakeFiles/CExr2.dir/Missile.cpp.s
+
+CMakeFiles/CExr2.dir/Missile.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Missile.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Missile.cpp.o.provides: CMakeFiles/CExr2.dir/Missile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Missile.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Missile.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Missile.cpp.o.provides.build: CMakeFiles/CExr2.dir/Missile.cpp.o
+
+
+CMakeFiles/CExr2.dir/Object.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Object.cpp.o: ../Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CExr2.dir/Object.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Object.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Object.cpp
+
+CMakeFiles/CExr2.dir/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Object.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Object.cpp > CMakeFiles/CExr2.dir/Object.cpp.i
+
+CMakeFiles/CExr2.dir/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Object.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Object.cpp -o CMakeFiles/CExr2.dir/Object.cpp.s
+
+CMakeFiles/CExr2.dir/Object.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Object.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Object.cpp.o.provides: CMakeFiles/CExr2.dir/Object.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Object.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Object.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Object.cpp.o.provides.build: CMakeFiles/CExr2.dir/Object.cpp.o
+
+
+CMakeFiles/CExr2.dir/OutputToFile.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/OutputToFile.cpp.o: ../OutputToFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CExr2.dir/OutputToFile.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/OutputToFile.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/OutputToFile.cpp
+
+CMakeFiles/CExr2.dir/OutputToFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/OutputToFile.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/OutputToFile.cpp > CMakeFiles/CExr2.dir/OutputToFile.cpp.i
+
+CMakeFiles/CExr2.dir/OutputToFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/OutputToFile.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/OutputToFile.cpp -o CMakeFiles/CExr2.dir/OutputToFile.cpp.s
+
+CMakeFiles/CExr2.dir/OutputToFile.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/OutputToFile.cpp.o.requires
+
+CMakeFiles/CExr2.dir/OutputToFile.cpp.o.provides: CMakeFiles/CExr2.dir/OutputToFile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/OutputToFile.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/OutputToFile.cpp.o.provides
+
+CMakeFiles/CExr2.dir/OutputToFile.cpp.o.provides.build: CMakeFiles/CExr2.dir/OutputToFile.cpp.o
+
+
+CMakeFiles/CExr2.dir/Point.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Point.cpp.o: ../Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CExr2.dir/Point.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Point.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Point.cpp
+
+CMakeFiles/CExr2.dir/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Point.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Point.cpp > CMakeFiles/CExr2.dir/Point.cpp.i
+
+CMakeFiles/CExr2.dir/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Point.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Point.cpp -o CMakeFiles/CExr2.dir/Point.cpp.s
+
+CMakeFiles/CExr2.dir/Point.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Point.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Point.cpp.o.provides: CMakeFiles/CExr2.dir/Point.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Point.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Point.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Point.cpp.o.provides.build: CMakeFiles/CExr2.dir/Point.cpp.o
+
+
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.o: ../ShieldArmor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CExr2.dir/ShieldArmor.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/ShieldArmor.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ShieldArmor.cpp
+
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/ShieldArmor.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ShieldArmor.cpp > CMakeFiles/CExr2.dir/ShieldArmor.cpp.i
+
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/ShieldArmor.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/ShieldArmor.cpp -o CMakeFiles/CExr2.dir/ShieldArmor.cpp.s
+
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.requires
+
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.provides: CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.provides
+
+CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.provides.build: CMakeFiles/CExr2.dir/ShieldArmor.cpp.o
+
+
+CMakeFiles/CExr2.dir/Solid.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Solid.cpp.o: ../Solid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CExr2.dir/Solid.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Solid.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Solid.cpp
+
+CMakeFiles/CExr2.dir/Solid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Solid.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Solid.cpp > CMakeFiles/CExr2.dir/Solid.cpp.i
+
+CMakeFiles/CExr2.dir/Solid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Solid.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Solid.cpp -o CMakeFiles/CExr2.dir/Solid.cpp.s
+
+CMakeFiles/CExr2.dir/Solid.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Solid.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Solid.cpp.o.provides: CMakeFiles/CExr2.dir/Solid.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Solid.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Solid.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Solid.cpp.o.provides.build: CMakeFiles/CExr2.dir/Solid.cpp.o
+
+
+CMakeFiles/CExr2.dir/Unsolid.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Unsolid.cpp.o: ../Unsolid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CExr2.dir/Unsolid.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Unsolid.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Unsolid.cpp
+
+CMakeFiles/CExr2.dir/Unsolid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Unsolid.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Unsolid.cpp > CMakeFiles/CExr2.dir/Unsolid.cpp.i
+
+CMakeFiles/CExr2.dir/Unsolid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Unsolid.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Unsolid.cpp -o CMakeFiles/CExr2.dir/Unsolid.cpp.s
+
+CMakeFiles/CExr2.dir/Unsolid.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Unsolid.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Unsolid.cpp.o.provides: CMakeFiles/CExr2.dir/Unsolid.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Unsolid.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Unsolid.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Unsolid.cpp.o.provides.build: CMakeFiles/CExr2.dir/Unsolid.cpp.o
+
+
+CMakeFiles/CExr2.dir/Uzi.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Uzi.cpp.o: ../Uzi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CExr2.dir/Uzi.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Uzi.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Uzi.cpp
+
+CMakeFiles/CExr2.dir/Uzi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Uzi.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Uzi.cpp > CMakeFiles/CExr2.dir/Uzi.cpp.i
+
+CMakeFiles/CExr2.dir/Uzi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Uzi.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Uzi.cpp -o CMakeFiles/CExr2.dir/Uzi.cpp.s
+
+CMakeFiles/CExr2.dir/Uzi.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Uzi.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Uzi.cpp.o.provides: CMakeFiles/CExr2.dir/Uzi.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Uzi.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Uzi.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Uzi.cpp.o.provides.build: CMakeFiles/CExr2.dir/Uzi.cpp.o
+
+
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.o: ../RegularWeapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CExr2.dir/RegularWeapon.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/RegularWeapon.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularWeapon.cpp
+
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/RegularWeapon.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularWeapon.cpp > CMakeFiles/CExr2.dir/RegularWeapon.cpp.i
+
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/RegularWeapon.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularWeapon.cpp -o CMakeFiles/CExr2.dir/RegularWeapon.cpp.s
+
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.requires
+
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.provides: CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.provides
+
+CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.provides.build: CMakeFiles/CExr2.dir/RegularWeapon.cpp.o
+
+
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o: ../FindIllSoldier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindIllSoldier.cpp
+
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/FindIllSoldier.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindIllSoldier.cpp > CMakeFiles/CExr2.dir/FindIllSoldier.cpp.i
+
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/FindIllSoldier.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindIllSoldier.cpp -o CMakeFiles/CExr2.dir/FindIllSoldier.cpp.s
+
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.requires
+
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.provides: CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.provides
+
+CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.provides.build: CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o
+
+
+CMakeFiles/CExr2.dir/Weapon.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/Weapon.cpp.o: ../Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CExr2.dir/Weapon.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/Weapon.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Weapon.cpp
+
+CMakeFiles/CExr2.dir/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/Weapon.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Weapon.cpp > CMakeFiles/CExr2.dir/Weapon.cpp.i
+
+CMakeFiles/CExr2.dir/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/Weapon.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/Weapon.cpp -o CMakeFiles/CExr2.dir/Weapon.cpp.s
+
+CMakeFiles/CExr2.dir/Weapon.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/Weapon.cpp.o.requires
+
+CMakeFiles/CExr2.dir/Weapon.cpp.o.provides: CMakeFiles/CExr2.dir/Weapon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Weapon.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/Weapon.cpp.o.provides
+
+CMakeFiles/CExr2.dir/Weapon.cpp.o.provides.build: CMakeFiles/CExr2.dir/Weapon.cpp.o
+
+
+CMakeFiles/CExr2.dir/PickAction.cpp.o: CMakeFiles/CExr2.dir/flags.make
+CMakeFiles/CExr2.dir/PickAction.cpp.o: ../PickAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CExr2.dir/PickAction.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CExr2.dir/PickAction.cpp.o -c /cygdrive/c/Users/ezri7/CLionProjects/CExr2/PickAction.cpp
+
+CMakeFiles/CExr2.dir/PickAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CExr2.dir/PickAction.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ezri7/CLionProjects/CExr2/PickAction.cpp > CMakeFiles/CExr2.dir/PickAction.cpp.i
+
+CMakeFiles/CExr2.dir/PickAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CExr2.dir/PickAction.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ezri7/CLionProjects/CExr2/PickAction.cpp -o CMakeFiles/CExr2.dir/PickAction.cpp.s
+
+CMakeFiles/CExr2.dir/PickAction.cpp.o.requires:
+
+.PHONY : CMakeFiles/CExr2.dir/PickAction.cpp.o.requires
+
+CMakeFiles/CExr2.dir/PickAction.cpp.o.provides: CMakeFiles/CExr2.dir/PickAction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/PickAction.cpp.o.provides.build
+.PHONY : CMakeFiles/CExr2.dir/PickAction.cpp.o.provides
+
+CMakeFiles/CExr2.dir/PickAction.cpp.o.provides.build: CMakeFiles/CExr2.dir/PickAction.cpp.o
+
+
 # Object files for target CExr2
 CExr2_OBJECTS = \
 "CMakeFiles/CExr2.dir/FileControl.cpp.o" \
 "CMakeFiles/CExr2.dir/Game.cpp.o" \
 "CMakeFiles/CExr2.dir/main.cpp.o" \
 "CMakeFiles/CExr2.dir/Player.cpp.o" \
+"CMakeFiles/CExr2.dir/HumanPlayer.cpp.o" \
+"CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o" \
 "CMakeFiles/CExr2.dir/WalkAction.cpp.o" \
 "CMakeFiles/CExr2.dir/Soldier.cpp.o" \
 "CMakeFiles/CExr2.dir/Warrior.cpp.o" \
@@ -358,7 +864,26 @@ CExr2_OBJECTS = \
 "CMakeFiles/CExr2.dir/SniperSoldier.cpp.o" \
 "CMakeFiles/CExr2.dir/HealerSoldier.cpp.o" \
 "CMakeFiles/CExr2.dir/GameBoard.cpp.o" \
-"CMakeFiles/CExr2.dir/AttackAction.cpp.o"
+"CMakeFiles/CExr2.dir/AttackAction.cpp.o" \
+"CMakeFiles/CExr2.dir/FindByRandom.cpp.o" \
+"CMakeFiles/CExr2.dir/HumanWalk.cpp.o" \
+"CMakeFiles/CExr2.dir/ComputerWalk.cpp.o" \
+"CMakeFiles/CExr2.dir/Armor.cpp.o" \
+"CMakeFiles/CExr2.dir/BodyArmor.cpp.o" \
+"CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o" \
+"CMakeFiles/CExr2.dir/M16.cpp.o" \
+"CMakeFiles/CExr2.dir/Missile.cpp.o" \
+"CMakeFiles/CExr2.dir/Object.cpp.o" \
+"CMakeFiles/CExr2.dir/OutputToFile.cpp.o" \
+"CMakeFiles/CExr2.dir/Point.cpp.o" \
+"CMakeFiles/CExr2.dir/ShieldArmor.cpp.o" \
+"CMakeFiles/CExr2.dir/Solid.cpp.o" \
+"CMakeFiles/CExr2.dir/Unsolid.cpp.o" \
+"CMakeFiles/CExr2.dir/Uzi.cpp.o" \
+"CMakeFiles/CExr2.dir/RegularWeapon.cpp.o" \
+"CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o" \
+"CMakeFiles/CExr2.dir/Weapon.cpp.o" \
+"CMakeFiles/CExr2.dir/PickAction.cpp.o"
 
 # External object files for target CExr2
 CExr2_EXTERNAL_OBJECTS =
@@ -367,6 +892,8 @@ CExr2.exe: CMakeFiles/CExr2.dir/FileControl.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/Game.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/main.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/Player.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/HumanPlayer.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/WalkAction.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/Soldier.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/Warrior.cpp.o
@@ -375,9 +902,28 @@ CExr2.exe: CMakeFiles/CExr2.dir/SniperSoldier.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/HealerSoldier.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/GameBoard.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/AttackAction.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/FindByRandom.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/HumanWalk.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/ComputerWalk.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Armor.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/BodyArmor.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/M16.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Missile.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Object.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/OutputToFile.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Point.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/ShieldArmor.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Solid.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Unsolid.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Uzi.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/RegularWeapon.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/Weapon.cpp.o
+CExr2.exe: CMakeFiles/CExr2.dir/PickAction.cpp.o
 CExr2.exe: CMakeFiles/CExr2.dir/build.make
 CExr2.exe: CMakeFiles/CExr2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable CExr2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ezri7/CLionProjects/CExr2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable CExr2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CExr2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -389,6 +935,8 @@ CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/FileControl.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Game.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/main.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Player.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/HumanPlayer.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/WalkAction.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Soldier.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Warrior.cpp.o.requires
@@ -397,6 +945,25 @@ CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/SniperSoldier.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/HealerSoldier.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/GameBoard.cpp.o.requires
 CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/AttackAction.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/FindByRandom.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/HumanWalk.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/ComputerWalk.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Armor.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/BodyArmor.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/M16.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Missile.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Object.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/OutputToFile.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Point.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/ShieldArmor.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Solid.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Unsolid.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Uzi.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/RegularWeapon.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/Weapon.cpp.o.requires
+CMakeFiles/CExr2.dir/requires: CMakeFiles/CExr2.dir/PickAction.cpp.o.requires
 
 .PHONY : CMakeFiles/CExr2.dir/requires
 

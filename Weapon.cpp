@@ -1,4 +1,5 @@
-#include "stdafx.h"
+#ifndef WEPON
+#define WEPON
 #include "Weapon.h"
 
 
@@ -37,3 +38,5 @@ void Weapon::toString()const
 	 //os << "[" << p._x << " " << p._y << "]";
 	 return os;
 }
+
+#endif

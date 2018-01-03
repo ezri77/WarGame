@@ -23,3 +23,7 @@ std::ostream& operator<<(std::ostream& os, const RegularWeapon& hw)
 	//os << "[" << p._x << " " << p._y << "]";
 	return os;
 }
+
+bool RegularWeapon::IsHeavy(){
+	return false;
+}

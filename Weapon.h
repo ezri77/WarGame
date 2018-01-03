@@ -1,4 +1,5 @@
-#pragma once
+#ifndef WEAPON
+#define WEAPON
 #include "Unsolid.h"
 #include "Point.h"
 
@@ -29,5 +30,8 @@ public:
 
 	// implement oof operator <<
 	friend std::ostream& operator<<(std::ostream& os, const Point& p);
+
+	virtual bool IsHeavy() = 0 ;
 };
 
+#endif

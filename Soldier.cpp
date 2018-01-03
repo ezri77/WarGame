@@ -6,18 +6,15 @@
 #include "Soldier.h"
 
 Soldier::Soldier(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints,const int _armySymbol) : _location(_location),
-                                                                                  _raduis(_raduis),
-                                                                                  _lifePoints(_lifePoints),
-                                                                                  _maxlifePoints(_maxlifePoints),
-																				  _armySymbol(_armySymbol){}
+                                                                                                                                  _raduis(_raduis),
+                                                                                                                                  _lifePoints(_lifePoints),
+                                                                                                                                  _maxlifePoints(_maxlifePoints),
+                                                                                                                                  _armySymbol(_armySymbol){}
 
-const Point &Soldier::get_location() const {
+const Point& Soldier::get_location() const {
     return _location;
 }
 
-const Armor *Soldier::get_armors() const {
-    return _armors;
-}
 
 const double Soldier::get_raduis() const {
     return _raduis;
@@ -56,17 +53,49 @@ const int Soldier::get_maxlifePoints() const {
 
 const int Soldier::get_army_symbol()const
 {
-	return _armySymbol;
+    return _armySymbol;
 }
 
 bool Soldier::can_reach_there(double distance)
 {
-	if (PICK_DISTANCE >= distance)return true;
-	else return false;
+    if (PICK_DISTANCE >= distance)return true;
+    else return false;
 }
 
 bool Soldier::can_walk_there(double distance)
 {
-	if (_raduis >= distance)return true;
-	else return false;
+    if (_raduis >= distance)return true;
+    else return false;
+}
+
+void Soldier::culcLifePoints(double hitPoint, Weapon* weapon) {
+    if(weapon != nullptr && weapon->IsHeavy() && !isShiledArmor()){
+        _lifePoints = 0 ;
+    } else {
+        _lifePoints = _lifePoints - (hitPoint * getShildsPower());
+    }
+}
+
+double Soldier::getShildsPower() {
+  double  armorPower = 1 ;
+   if(_armors[BODY] != nullptr){
+       armorPower *=  _armors[BODY]->getDefenseLevel();
+   }
+    if(_armors[SHILED] != nullptr){
+        armorPower *=  _armors[BODY]->getDefenseLevel();
+    }
+
+    return  armorPower ;
+}
+
+bool Soldier::isShiledArmor (){
+    return _armors[SHILED] != nullptr ;
+}
+
+bool Soldier::isAlive() {
+   return _lifePoints != 0 ;
+}
+
+bool Soldier::isIll() {
+   return  _lifePoints <= HEAL_LIFE ;
 }

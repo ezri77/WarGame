@@ -5,6 +5,7 @@
 #ifndef CEXR2_SOLDIER_H
 #define CEXR2_SOLDIER_H
 
+#define HEAL_LIFE 30
 #define PICK_DISTANCE 2
 
 #include "Point.h"
@@ -16,7 +17,7 @@ class Soldier {
 
 private:
     Point _location;
-    Armor _armors[2];
+    Armor* _armors[2];
     const double _raduis ;
     int _lifePoints;
     const int _maxlifePoints;
@@ -27,7 +28,7 @@ private:
     enum armorType{BODY,SHILED};
 public:
 
-    virtual void play(Actions* action) = 0;
+    virtual void play(Actions* action , GameBoard* board) = 0;
 
     virtual ~Soldier();
 
@@ -43,8 +44,6 @@ public:
 
     const Point &get_location() const;
 
-    const Armor *get_armors() const;
-
     const double get_raduis() const;
 
     int get_lifePoints() const;
@@ -56,6 +55,16 @@ public:
 	bool can_reach_there(double distanc);
 
 	bool can_walk_there(double distanc);
+
+	bool isIll();
+
+	void culcLifePoints(double hitPoint,Weapon* weapen);
+
+	double getShildsPower() ;
+
+	bool isShiledArmor () ;
+
+	bool isAlive ();
 
     ///report????
 

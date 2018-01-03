@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOLID
+#define SOLID
 #include "Object.h"
 #include <iostream>
 
@@ -16,3 +17,4 @@ public:
 	friend std::ostream& operator<<(std::ostream& os, const Point& p);
 };
 
+#endif

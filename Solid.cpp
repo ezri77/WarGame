@@ -1,6 +1,4 @@
-#include "stdafx.h"
 #include "Solid.h"
-
 
 Solid::Solid():Object(Point (0,0)),_length(1),_width(1),_name("rock")
 {
@@ -14,7 +12,7 @@ Solid::~Solid()
 
 const  Point& Solid::getLocation()const
 {		 
-	return Object::getLocation();
+	return _location;
 }
 
 const double Solid::getWidth() const

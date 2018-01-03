@@ -1,4 +1,5 @@
-#pragma once
+#ifndef HAEVY_WEP
+#define HAEVY_WEP
 #include "Weapon.h"
 
 class HeavyWeapon:public Weapon
@@ -17,5 +18,7 @@ public:
 	// implement oof operator <<
 	friend std::ostream& operator<<(std::ostream& os, const HeavyWeapon& hw);
 
+	virtual bool IsHeavy() override ;
 };
 
+#endif

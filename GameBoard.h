@@ -9,6 +9,10 @@
 #include "Soldier.h"
 #include "Armor.h"
 #include "Solid.cpp"
+#include "Player.h"
+#include "FindSoldierStrategy.h"
+#include "WalkStrategy.h"
+#include "Solid.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -20,15 +24,18 @@ private:
 
     const int _length;
     const int _width;
-    std::vector<Soldier> soldeirs ;
+    int numOfPlayers;
+    std::vector<Player*>  players ;
     std::vector<Solid> solids ;
     std::vector<Weapon> weapons ;
     std::vector<Armor> armors ;
+    FindSoldierStrategy* Findstrategy ;
+
 
 
 public:
 
-    GameBoard(const int _length, const int _width, const std::vector<Soldier> &soldeirs,
+    GameBoard(const int length, const int width,
               const std::vector<Solid> &solids, const std::vector<Weapon> &weapons, const std::vector<Armor> &armors);
 
     virtual ~GameBoard();
@@ -52,9 +59,23 @@ public:
 
     void removeSoldierByIndex(int index);
 
-	double distance(Point p1, Point p2);
-	
+	double distance(const Point* p1,const Point* p2);
 
+   const std::vector<Player*> getPlayers() const ;
+
+    Soldier* findSolider(FindSoldierStrategy* strategy,Soldier& current );
+
+   // Point& moves(WalkStrategy* strategy, Soldier& current);
+
+   /* Player& getPlayerByIndex(int i) const;*/
+
+
+    Player& getPlayerByArmySymbol (int armySymbol);
+
+
+    Point *getObstecalePoint(const Point &point, Point *pPoint);
+
+    Point *getPointByCalcRadius(const Point *point, Point *pPoint, double radius, short walkingRate);
 };
 
 

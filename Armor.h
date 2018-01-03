@@ -1,7 +1,8 @@
-#pragma once
+#ifndef ARMOR
+#define ARMOR
 #include "Unsolid.h"
 
-class Armor:Unsolid
+class Armor: public Unsolid
 {
 private:
 	double _defenseLevel;
@@ -24,3 +25,4 @@ public:
 
 };
 
+#endif

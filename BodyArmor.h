@@ -1,4 +1,6 @@
-#pragma once
+
+#ifndef BO_ARAMOR
+#define BO_ARAMOR
 #include "Armor.h"
 
 class BodyArmor:public Armor
@@ -15,3 +17,4 @@ public:
 
 };
 
+#endif

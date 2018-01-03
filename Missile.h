@@ -1,4 +1,5 @@
-#pragma once
+#ifndef MISSLE
+#define MISSLE
 #include "HeavyWeapon.h"
 
 class Missile:HeavyWeapon
@@ -14,3 +15,4 @@ public:
 	friend std::ostream& operator<<(std::ostream& os, const Missile& hw);
 };
 
+#endif

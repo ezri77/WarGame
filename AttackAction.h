@@ -5,21 +5,33 @@
 #ifndef CEXR2_ATTACKACTION_H
 #define CEXR2_ATTACKACTION_H
 
+#define HIT_POWER_OF_HEALER 10
+
 #include "Actions.h"
+#include "RegularSoldier.h"
+#include "SniperSoldier.h"
+#include "HealerSoldier.h"
 #include "GameBoard.h"
+#include "FindByRandom.h"
+
+
 
 class AttackAction:public Actions {
 private:
-	glo AttackAction* instance;
+
+    static AttackAction* attack ;
+    AttackAction();
 public:
-    void doAction(class RegularSoldier *soldier, GameBoard *board) override;
+    FindByRandom findByRandom ;
+    AttackAction* getInstance();
 
-    void doAction(struct SniperSoldier *soldier, GameBoard *board) override;
+    void doAction(class RegularSoldier& soldier, GameBoard *board) ;
 
-    void doAction(struct HealerSoldier *soldier, GameBoard *board) override;
+    void doAction(class SniperSoldier& soldier, GameBoard *board) ;
+
+    void doAction(class HealerSoldier& soldier, GameBoard *board) ;
 
 
 };
-
 
 #endif //CEXR2_ATTACKACTION_H

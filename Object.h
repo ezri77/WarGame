@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef OBJECT
+#define OBJECT
 #include "Point.h"
 
 class Object
@@ -26,4 +26,6 @@ public:
 	 // print the data of the object
 	 virtual void toString()const = 0;
 };
+
+#endif
 

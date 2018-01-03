@@ -1,4 +1,5 @@
-#pragma once
+#ifndef M16
+#define M16
 #include "RegularWeapon.h"
 
 class M16:public RegularWeapon
@@ -14,3 +15,4 @@ public:
 	friend std::ostream& operator<<(std::ostream& os, const M16& hw);
 };
 
+#endif

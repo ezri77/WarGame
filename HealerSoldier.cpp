@@ -1,20 +1,20 @@
-h//
+//
 // Created by ezri7 on 01/01/2018.
 //
 
 #include "HealerSoldier.h"
 
-HealerSoldier::HealerSoldier(const Point &_location, const int _armySymbol) : WarSupporter(_location, RADIUS, MAX_LIFE_POINT, MAX_LIFE_POINT, _armySymbol) {}
+HealerSoldier::HealerSoldier(Point &_location, int armySymbol) : WarSupporter(_location, RADIUS_HEALER, MAX_LIFE_POINT_HEAL, MAX_LIFE_POINT_HEAL, armySymbol) {}
 
 HealerSoldier::~HealerSoldier() {
 
 
 }
 
-void HealerSoldier::play(Actions *action) {
-action->doAction(this);
+void HealerSoldier::play(Actions *action,GameBoard* board) {
+action->doAction(this,board);
 }
 
 const int HealerSoldier::get_maxLife() const {
-    return _maxLife;
+    return MAX_LIFE_POINT_HEAL;
 }

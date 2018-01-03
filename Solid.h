@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOLID
+#define SOLID
 #include "Object.h"
 #include <iostream>
 
@@ -45,3 +46,4 @@ public:
 
 };
 
+#endif

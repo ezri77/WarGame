@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UZI
+#define UZI
 #include "RegularWeapon.h"
 class Uzi:public RegularWeapon
 {
@@ -16,3 +17,4 @@ public:
 
 };
 
+#endif

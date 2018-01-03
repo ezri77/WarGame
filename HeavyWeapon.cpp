@@ -25,3 +25,7 @@ std::ostream& operator<<(std::ostream& os, const HeavyWeapon& hw)
 	//os << "[" << p._x << " " << p._y << "]";
 	return os;
 }
+
+bool HeavyWeapon::IsHeavy(){
+	return true;
+}

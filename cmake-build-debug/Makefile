@@ -123,6 +123,33 @@ CExr2/fast:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/build
 .PHONY : CExr2/fast
 
+Armor.o: Armor.cpp.o
+
+.PHONY : Armor.o
+
+# target to build an object file
+Armor.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Armor.cpp.o
+.PHONY : Armor.cpp.o
+
+Armor.i: Armor.cpp.i
+
+.PHONY : Armor.i
+
+# target to preprocess a source file
+Armor.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Armor.cpp.i
+.PHONY : Armor.cpp.i
+
+Armor.s: Armor.cpp.s
+
+.PHONY : Armor.s
+
+# target to generate assembly for a file
+Armor.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Armor.cpp.s
+.PHONY : Armor.cpp.s
+
 AttackAction.o: AttackAction.cpp.o
 
 .PHONY : AttackAction.o
@@ -150,6 +177,87 @@ AttackAction.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/AttackAction.cpp.s
 .PHONY : AttackAction.cpp.s
 
+BodyArmor.o: BodyArmor.cpp.o
+
+.PHONY : BodyArmor.o
+
+# target to build an object file
+BodyArmor.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/BodyArmor.cpp.o
+.PHONY : BodyArmor.cpp.o
+
+BodyArmor.i: BodyArmor.cpp.i
+
+.PHONY : BodyArmor.i
+
+# target to preprocess a source file
+BodyArmor.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/BodyArmor.cpp.i
+.PHONY : BodyArmor.cpp.i
+
+BodyArmor.s: BodyArmor.cpp.s
+
+.PHONY : BodyArmor.s
+
+# target to generate assembly for a file
+BodyArmor.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/BodyArmor.cpp.s
+.PHONY : BodyArmor.cpp.s
+
+ComputerPlayer.o: ComputerPlayer.cpp.o
+
+.PHONY : ComputerPlayer.o
+
+# target to build an object file
+ComputerPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerPlayer.cpp.o
+.PHONY : ComputerPlayer.cpp.o
+
+ComputerPlayer.i: ComputerPlayer.cpp.i
+
+.PHONY : ComputerPlayer.i
+
+# target to preprocess a source file
+ComputerPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerPlayer.cpp.i
+.PHONY : ComputerPlayer.cpp.i
+
+ComputerPlayer.s: ComputerPlayer.cpp.s
+
+.PHONY : ComputerPlayer.s
+
+# target to generate assembly for a file
+ComputerPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerPlayer.cpp.s
+.PHONY : ComputerPlayer.cpp.s
+
+ComputerWalk.o: ComputerWalk.cpp.o
+
+.PHONY : ComputerWalk.o
+
+# target to build an object file
+ComputerWalk.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerWalk.cpp.o
+.PHONY : ComputerWalk.cpp.o
+
+ComputerWalk.i: ComputerWalk.cpp.i
+
+.PHONY : ComputerWalk.i
+
+# target to preprocess a source file
+ComputerWalk.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerWalk.cpp.i
+.PHONY : ComputerWalk.cpp.i
+
+ComputerWalk.s: ComputerWalk.cpp.s
+
+.PHONY : ComputerWalk.s
+
+# target to generate assembly for a file
+ComputerWalk.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ComputerWalk.cpp.s
+.PHONY : ComputerWalk.cpp.s
+
 FileControl.o: FileControl.cpp.o
 
 .PHONY : FileControl.o
@@ -176,6 +284,60 @@ FileControl.s: FileControl.cpp.s
 FileControl.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FileControl.cpp.s
 .PHONY : FileControl.cpp.s
+
+FindByRandom.o: FindByRandom.cpp.o
+
+.PHONY : FindByRandom.o
+
+# target to build an object file
+FindByRandom.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindByRandom.cpp.o
+.PHONY : FindByRandom.cpp.o
+
+FindByRandom.i: FindByRandom.cpp.i
+
+.PHONY : FindByRandom.i
+
+# target to preprocess a source file
+FindByRandom.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindByRandom.cpp.i
+.PHONY : FindByRandom.cpp.i
+
+FindByRandom.s: FindByRandom.cpp.s
+
+.PHONY : FindByRandom.s
+
+# target to generate assembly for a file
+FindByRandom.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindByRandom.cpp.s
+.PHONY : FindByRandom.cpp.s
+
+FindIllSoldier.o: FindIllSoldier.cpp.o
+
+.PHONY : FindIllSoldier.o
+
+# target to build an object file
+FindIllSoldier.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindIllSoldier.cpp.o
+.PHONY : FindIllSoldier.cpp.o
+
+FindIllSoldier.i: FindIllSoldier.cpp.i
+
+.PHONY : FindIllSoldier.i
+
+# target to preprocess a source file
+FindIllSoldier.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindIllSoldier.cpp.i
+.PHONY : FindIllSoldier.cpp.i
+
+FindIllSoldier.s: FindIllSoldier.cpp.s
+
+.PHONY : FindIllSoldier.s
+
+# target to generate assembly for a file
+FindIllSoldier.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/FindIllSoldier.cpp.s
+.PHONY : FindIllSoldier.cpp.s
 
 Game.o: Game.cpp.o
 
@@ -258,6 +420,222 @@ HealerSoldier.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HealerSoldier.cpp.s
 .PHONY : HealerSoldier.cpp.s
 
+HeavyWeapon.o: HeavyWeapon.cpp.o
+
+.PHONY : HeavyWeapon.o
+
+# target to build an object file
+HeavyWeapon.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HeavyWeapon.cpp.o
+.PHONY : HeavyWeapon.cpp.o
+
+HeavyWeapon.i: HeavyWeapon.cpp.i
+
+.PHONY : HeavyWeapon.i
+
+# target to preprocess a source file
+HeavyWeapon.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HeavyWeapon.cpp.i
+.PHONY : HeavyWeapon.cpp.i
+
+HeavyWeapon.s: HeavyWeapon.cpp.s
+
+.PHONY : HeavyWeapon.s
+
+# target to generate assembly for a file
+HeavyWeapon.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HeavyWeapon.cpp.s
+.PHONY : HeavyWeapon.cpp.s
+
+HumanPlayer.o: HumanPlayer.cpp.o
+
+.PHONY : HumanPlayer.o
+
+# target to build an object file
+HumanPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanPlayer.cpp.o
+.PHONY : HumanPlayer.cpp.o
+
+HumanPlayer.i: HumanPlayer.cpp.i
+
+.PHONY : HumanPlayer.i
+
+# target to preprocess a source file
+HumanPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanPlayer.cpp.i
+.PHONY : HumanPlayer.cpp.i
+
+HumanPlayer.s: HumanPlayer.cpp.s
+
+.PHONY : HumanPlayer.s
+
+# target to generate assembly for a file
+HumanPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanPlayer.cpp.s
+.PHONY : HumanPlayer.cpp.s
+
+HumanWalk.o: HumanWalk.cpp.o
+
+.PHONY : HumanWalk.o
+
+# target to build an object file
+HumanWalk.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanWalk.cpp.o
+.PHONY : HumanWalk.cpp.o
+
+HumanWalk.i: HumanWalk.cpp.i
+
+.PHONY : HumanWalk.i
+
+# target to preprocess a source file
+HumanWalk.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanWalk.cpp.i
+.PHONY : HumanWalk.cpp.i
+
+HumanWalk.s: HumanWalk.cpp.s
+
+.PHONY : HumanWalk.s
+
+# target to generate assembly for a file
+HumanWalk.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/HumanWalk.cpp.s
+.PHONY : HumanWalk.cpp.s
+
+M16.o: M16.cpp.o
+
+.PHONY : M16.o
+
+# target to build an object file
+M16.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/M16.cpp.o
+.PHONY : M16.cpp.o
+
+M16.i: M16.cpp.i
+
+.PHONY : M16.i
+
+# target to preprocess a source file
+M16.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/M16.cpp.i
+.PHONY : M16.cpp.i
+
+M16.s: M16.cpp.s
+
+.PHONY : M16.s
+
+# target to generate assembly for a file
+M16.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/M16.cpp.s
+.PHONY : M16.cpp.s
+
+Missile.o: Missile.cpp.o
+
+.PHONY : Missile.o
+
+# target to build an object file
+Missile.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Missile.cpp.o
+.PHONY : Missile.cpp.o
+
+Missile.i: Missile.cpp.i
+
+.PHONY : Missile.i
+
+# target to preprocess a source file
+Missile.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Missile.cpp.i
+.PHONY : Missile.cpp.i
+
+Missile.s: Missile.cpp.s
+
+.PHONY : Missile.s
+
+# target to generate assembly for a file
+Missile.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Missile.cpp.s
+.PHONY : Missile.cpp.s
+
+Object.o: Object.cpp.o
+
+.PHONY : Object.o
+
+# target to build an object file
+Object.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Object.cpp.o
+.PHONY : Object.cpp.o
+
+Object.i: Object.cpp.i
+
+.PHONY : Object.i
+
+# target to preprocess a source file
+Object.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Object.cpp.i
+.PHONY : Object.cpp.i
+
+Object.s: Object.cpp.s
+
+.PHONY : Object.s
+
+# target to generate assembly for a file
+Object.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Object.cpp.s
+.PHONY : Object.cpp.s
+
+OutputToFile.o: OutputToFile.cpp.o
+
+.PHONY : OutputToFile.o
+
+# target to build an object file
+OutputToFile.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/OutputToFile.cpp.o
+.PHONY : OutputToFile.cpp.o
+
+OutputToFile.i: OutputToFile.cpp.i
+
+.PHONY : OutputToFile.i
+
+# target to preprocess a source file
+OutputToFile.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/OutputToFile.cpp.i
+.PHONY : OutputToFile.cpp.i
+
+OutputToFile.s: OutputToFile.cpp.s
+
+.PHONY : OutputToFile.s
+
+# target to generate assembly for a file
+OutputToFile.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/OutputToFile.cpp.s
+.PHONY : OutputToFile.cpp.s
+
+PickAction.o: PickAction.cpp.o
+
+.PHONY : PickAction.o
+
+# target to build an object file
+PickAction.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/PickAction.cpp.o
+.PHONY : PickAction.cpp.o
+
+PickAction.i: PickAction.cpp.i
+
+.PHONY : PickAction.i
+
+# target to preprocess a source file
+PickAction.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/PickAction.cpp.i
+.PHONY : PickAction.cpp.i
+
+PickAction.s: PickAction.cpp.s
+
+.PHONY : PickAction.s
+
+# target to generate assembly for a file
+PickAction.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/PickAction.cpp.s
+.PHONY : PickAction.cpp.s
+
 Player.o: Player.cpp.o
 
 .PHONY : Player.o
@@ -285,6 +663,33 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
 RegularSoldier.o: RegularSoldier.cpp.o
 
 .PHONY : RegularSoldier.o
@@ -311,6 +716,60 @@ RegularSoldier.s: RegularSoldier.cpp.s
 RegularSoldier.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/RegularSoldier.cpp.s
 .PHONY : RegularSoldier.cpp.s
+
+RegularWeapon.o: RegularWeapon.cpp.o
+
+.PHONY : RegularWeapon.o
+
+# target to build an object file
+RegularWeapon.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/RegularWeapon.cpp.o
+.PHONY : RegularWeapon.cpp.o
+
+RegularWeapon.i: RegularWeapon.cpp.i
+
+.PHONY : RegularWeapon.i
+
+# target to preprocess a source file
+RegularWeapon.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/RegularWeapon.cpp.i
+.PHONY : RegularWeapon.cpp.i
+
+RegularWeapon.s: RegularWeapon.cpp.s
+
+.PHONY : RegularWeapon.s
+
+# target to generate assembly for a file
+RegularWeapon.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/RegularWeapon.cpp.s
+.PHONY : RegularWeapon.cpp.s
+
+ShieldArmor.o: ShieldArmor.cpp.o
+
+.PHONY : ShieldArmor.o
+
+# target to build an object file
+ShieldArmor.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ShieldArmor.cpp.o
+.PHONY : ShieldArmor.cpp.o
+
+ShieldArmor.i: ShieldArmor.cpp.i
+
+.PHONY : ShieldArmor.i
+
+# target to preprocess a source file
+ShieldArmor.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ShieldArmor.cpp.i
+.PHONY : ShieldArmor.cpp.i
+
+ShieldArmor.s: ShieldArmor.cpp.s
+
+.PHONY : ShieldArmor.s
+
+# target to generate assembly for a file
+ShieldArmor.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/ShieldArmor.cpp.s
+.PHONY : ShieldArmor.cpp.s
 
 SniperSoldier.o: SniperSoldier.cpp.o
 
@@ -366,6 +825,87 @@ Soldier.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Soldier.cpp.s
 .PHONY : Soldier.cpp.s
 
+Solid.o: Solid.cpp.o
+
+.PHONY : Solid.o
+
+# target to build an object file
+Solid.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Solid.cpp.o
+.PHONY : Solid.cpp.o
+
+Solid.i: Solid.cpp.i
+
+.PHONY : Solid.i
+
+# target to preprocess a source file
+Solid.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Solid.cpp.i
+.PHONY : Solid.cpp.i
+
+Solid.s: Solid.cpp.s
+
+.PHONY : Solid.s
+
+# target to generate assembly for a file
+Solid.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Solid.cpp.s
+.PHONY : Solid.cpp.s
+
+Unsolid.o: Unsolid.cpp.o
+
+.PHONY : Unsolid.o
+
+# target to build an object file
+Unsolid.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Unsolid.cpp.o
+.PHONY : Unsolid.cpp.o
+
+Unsolid.i: Unsolid.cpp.i
+
+.PHONY : Unsolid.i
+
+# target to preprocess a source file
+Unsolid.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Unsolid.cpp.i
+.PHONY : Unsolid.cpp.i
+
+Unsolid.s: Unsolid.cpp.s
+
+.PHONY : Unsolid.s
+
+# target to generate assembly for a file
+Unsolid.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Unsolid.cpp.s
+.PHONY : Unsolid.cpp.s
+
+Uzi.o: Uzi.cpp.o
+
+.PHONY : Uzi.o
+
+# target to build an object file
+Uzi.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Uzi.cpp.o
+.PHONY : Uzi.cpp.o
+
+Uzi.i: Uzi.cpp.i
+
+.PHONY : Uzi.i
+
+# target to preprocess a source file
+Uzi.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Uzi.cpp.i
+.PHONY : Uzi.cpp.i
+
+Uzi.s: Uzi.cpp.s
+
+.PHONY : Uzi.s
+
+# target to generate assembly for a file
+Uzi.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Uzi.cpp.s
+.PHONY : Uzi.cpp.s
+
 WalkAction.o: WalkAction.cpp.o
 
 .PHONY : WalkAction.o
@@ -420,6 +960,33 @@ Warrior.cpp.s:
 	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Warrior.cpp.s
 .PHONY : Warrior.cpp.s
 
+Weapon.o: Weapon.cpp.o
+
+.PHONY : Weapon.o
+
+# target to build an object file
+Weapon.cpp.o:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Weapon.cpp.o
+.PHONY : Weapon.cpp.o
+
+Weapon.i: Weapon.cpp.i
+
+.PHONY : Weapon.i
+
+# target to preprocess a source file
+Weapon.cpp.i:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Weapon.cpp.i
+.PHONY : Weapon.cpp.i
+
+Weapon.s: Weapon.cpp.s
+
+.PHONY : Weapon.s
+
+# target to generate assembly for a file
+Weapon.cpp.s:
+	$(MAKE) -f CMakeFiles/CExr2.dir/build.make CMakeFiles/CExr2.dir/Weapon.cpp.s
+.PHONY : Weapon.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -456,12 +1023,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CExr2"
+	@echo "... Armor.o"
+	@echo "... Armor.i"
+	@echo "... Armor.s"
 	@echo "... AttackAction.o"
 	@echo "... AttackAction.i"
 	@echo "... AttackAction.s"
+	@echo "... BodyArmor.o"
+	@echo "... BodyArmor.i"
+	@echo "... BodyArmor.s"
+	@echo "... ComputerPlayer.o"
+	@echo "... ComputerPlayer.i"
+	@echo "... ComputerPlayer.s"
+	@echo "... ComputerWalk.o"
+	@echo "... ComputerWalk.i"
+	@echo "... ComputerWalk.s"
 	@echo "... FileControl.o"
 	@echo "... FileControl.i"
 	@echo "... FileControl.s"
+	@echo "... FindByRandom.o"
+	@echo "... FindByRandom.i"
+	@echo "... FindByRandom.s"
+	@echo "... FindIllSoldier.o"
+	@echo "... FindIllSoldier.i"
+	@echo "... FindIllSoldier.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
@@ -471,24 +1056,69 @@ help:
 	@echo "... HealerSoldier.o"
 	@echo "... HealerSoldier.i"
 	@echo "... HealerSoldier.s"
+	@echo "... HeavyWeapon.o"
+	@echo "... HeavyWeapon.i"
+	@echo "... HeavyWeapon.s"
+	@echo "... HumanPlayer.o"
+	@echo "... HumanPlayer.i"
+	@echo "... HumanPlayer.s"
+	@echo "... HumanWalk.o"
+	@echo "... HumanWalk.i"
+	@echo "... HumanWalk.s"
+	@echo "... M16.o"
+	@echo "... M16.i"
+	@echo "... M16.s"
+	@echo "... Missile.o"
+	@echo "... Missile.i"
+	@echo "... Missile.s"
+	@echo "... Object.o"
+	@echo "... Object.i"
+	@echo "... Object.s"
+	@echo "... OutputToFile.o"
+	@echo "... OutputToFile.i"
+	@echo "... OutputToFile.s"
+	@echo "... PickAction.o"
+	@echo "... PickAction.i"
+	@echo "... PickAction.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
 	@echo "... RegularSoldier.o"
 	@echo "... RegularSoldier.i"
 	@echo "... RegularSoldier.s"
+	@echo "... RegularWeapon.o"
+	@echo "... RegularWeapon.i"
+	@echo "... RegularWeapon.s"
+	@echo "... ShieldArmor.o"
+	@echo "... ShieldArmor.i"
+	@echo "... ShieldArmor.s"
 	@echo "... SniperSoldier.o"
 	@echo "... SniperSoldier.i"
 	@echo "... SniperSoldier.s"
 	@echo "... Soldier.o"
 	@echo "... Soldier.i"
 	@echo "... Soldier.s"
+	@echo "... Solid.o"
+	@echo "... Solid.i"
+	@echo "... Solid.s"
+	@echo "... Unsolid.o"
+	@echo "... Unsolid.i"
+	@echo "... Unsolid.s"
+	@echo "... Uzi.o"
+	@echo "... Uzi.i"
+	@echo "... Uzi.s"
 	@echo "... WalkAction.o"
 	@echo "... WalkAction.i"
 	@echo "... WalkAction.s"
 	@echo "... Warrior.o"
 	@echo "... Warrior.i"
 	@echo "... Warrior.s"
+	@echo "... Weapon.o"
+	@echo "... Weapon.i"
+	@echo "... Weapon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

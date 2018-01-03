@@ -6,12 +6,15 @@
 #define CEXR2_WARSUPPORTER_H
 #include "Soldier.h"
 #include "Actions.h"
+#include "GameBoard.h"
+
+
 
 class WarSupporter : public Soldier{
 public:
-    virtual void play(Actions* action) = 0;
+    virtual void play(class Actions* action,class GameBoard* board) = 0;
 
-    WarSupporter(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, const int _armySymbol);
+    WarSupporter( Point &_location,  double _raduis, int _lifePoints,  int _maxlifePoints,  int _armySymbol);
 
     virtual ~WarSupporter();
 };
@@ -23,5 +26,6 @@ WarSupporter::~WarSupporter() {
 
 }
 
-WarSupporter::WarSupporter(const Point &_location, const double _raduis, int _lifePoints, const int _maxlifePoints, const int _armySymbol)
+
+WarSupporter::WarSupporter(Point &_location, double _raduis, int _lifePoints, int _maxlifePoints, int _armySymbol)
         : Soldier(_location, _raduis, _lifePoints, _maxlifePoints, _armySymbol) {}

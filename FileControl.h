@@ -21,7 +21,7 @@ public:
     FileControl(const std::string& path);
     ~FileControl();
     virtual void report(Game* game) override ;
-   // virtual void report(Player* player);
+    virtual void report(Player* player);
 
 
 

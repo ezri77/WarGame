@@ -6,7 +6,9 @@
 #define CEXR2_ACTIONS_H
 
 #include "RegularSoldier.h"
-
+#include "SniperSoldier.h"
+#include "HealerSoldier.h"
+#include "GameBoard.h"
 
 class Actions {
 public:

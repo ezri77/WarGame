@@ -1,4 +1,5 @@
-#include "stdafx.h"
+#ifndef  SHILD_ARMOR
+#define  SHILD_ARMOR
 #include "ShieldArmor.h"
 
 
@@ -24,3 +25,5 @@ std::ostream& operator<<(std::ostream& os, const ShieldArmor& sh)
 	return os;
 
 }
+
+#endif

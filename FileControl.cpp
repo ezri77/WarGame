@@ -16,10 +16,17 @@ FileControl::~FileControl()
 
 void FileControl::report(Game* game)
 {
-std::cout << "The visitor succeeded" << std::endl ;
+/**
+ * read Game configurations from initFileGame
+ * and init numOfPlayers,numOfSoldiers,players and solid objects
+ */
 }
-/*
+
 void FileControl::report(Player* player)
 {
-
-}*/
+ /**
+ * read human Player steps configurations from initFileGame
+  * and put in steps vector the points steps
+  *
+ */
+}

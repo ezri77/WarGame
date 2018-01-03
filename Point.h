@@ -1,4 +1,6 @@
-#pragma once
+
+#ifndef POINT
+#define POINT
 #include <iostream>
 class Point
 {
@@ -40,3 +42,4 @@ public:
 	void toString()const;
 };
 
+#endif

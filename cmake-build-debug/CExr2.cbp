@@ -83,16 +83,55 @@
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Actions.h">
 			<Option target="CExr2"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Armor.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Armor.h">
+			<Option target="CExr2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.cpp">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/AttackAction.h">
 			<Option target="CExr2"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/BodyArmor.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/BodyArmor.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerPlayer.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerPlayer.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerWalk.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/ComputerWalk.h">
+			<Option target="CExr2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FileControl.cpp">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FileControl.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindByRandom.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindByRandom.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindIllSoldier.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindIllSoldier.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/FindSoldierStrategy.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Game.cpp">
@@ -113,10 +152,67 @@
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HealerSoldier.h">
 			<Option target="CExr2"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HeavyWeapon.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HeavyWeapon.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanPlayer.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanPlayer.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanWalk.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/HumanWalk.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/M16.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/M16.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Missile.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Missile.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Object.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Object.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/OutputToFile.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/OutputToFile.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/PickAction.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/PickAction.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/PickStrategy.h">
+			<Option target="CExr2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Player.cpp">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Player.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Point.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Point.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularSoldier.cpp">
@@ -125,10 +221,22 @@
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularSoldier.h">
 			<Option target="CExr2"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularWeapon.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/RegularWeapon.h">
+			<Option target="CExr2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Reportable.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Reporter.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/ShieldArmor.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/ShieldArmor.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/SniperSoldier.cpp">
@@ -143,10 +251,31 @@
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Soldier.h">
 			<Option target="CExr2"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Solid.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Solid.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Unsolid.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Unsolid.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Uzi.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Uzi.h">
+			<Option target="CExr2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/WalkAction.cpp">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/WalkAction.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/WalkStrategy.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/WarSupporter.h">
@@ -156,6 +285,12 @@
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Warrior.h">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Weapon.cpp">
+			<Option target="CExr2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/Weapon.h">
 			<Option target="CExr2"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ezri7/CLionProjects/CExr2/main.cpp">
